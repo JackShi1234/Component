@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		865909B6257F0DD900B83381 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 865909B5257F0DD900B83381 /* Request.m */; };
 		8659ACEB257DDC240028ADAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8659ACEA257DDC240028ADAC /* AppDelegate.m */; };
 		8659ACEE257DDC240028ADAC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8659ACED257DDC240028ADAC /* SceneDelegate.m */; };
 		8659ACF1257DDC240028ADAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8659ACF0257DDC240028ADAC /* ViewController.m */; };
@@ -55,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		865909B4257F0DD900B83381 /* Request.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		865909B5257F0DD900B83381 /* Request.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
 		8659ACE6257DDC240028ADAC /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8659ACE9257DDC240028ADAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8659ACEA257DDC240028ADAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -144,6 +147,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		865909B3257F0DA800B83381 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				865909B4257F0DD900B83381 /* Request.h */,
+				865909B5257F0DD900B83381 /* Request.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		8659ACDD257DDC240028ADAC = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +218,7 @@
 		8659AD21257DDE670028ADAC /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				865909B3257F0DA800B83381 /* Network */,
 				8659AD76257E20BC0028ADAC /* Pop */,
 				8659AD51257E0F570028ADAC /* JMOAuth */,
 				8659AD22257E00890028ADAC /* Masonry */,
@@ -466,6 +479,7 @@
 				8659AD45257E00890028ADAC /* MASViewAttribute.m in Sources */,
 				8659AD7C257E21340028ADAC /* YsyPopHelper.m in Sources */,
 				8659AD4C257E0DA40028ADAC /* dictMulitToString.m in Sources */,
+				865909B6257F0DD900B83381 /* Request.m in Sources */,
 				8659ACF1257DDC240028ADAC /* ViewController.m in Sources */,
 				8659AD90257E25F90028ADAC /* TestView.m in Sources */,
 				8659ACEB257DDC240028ADAC /* AppDelegate.m in Sources */,
